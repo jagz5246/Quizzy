@@ -126,7 +126,6 @@ html{
   border-radius: 20px;
   color: rgb(22, 22, 22);
   background: white;
-  /* border: 2px solid gray; */
   transition: .3s ease;
 }
 .answers button:hover{
@@ -194,7 +193,7 @@ html{
   border-radius: 20px;
   color: white;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.404),
-  -6px -6px 10px -1px rgba(58, 58, 58, 0.856);
+  -6px -6px 10px -1px rgba(58, 58, 58, 0.541);
 }
 .mistakes h2{
   font-size: 2em;
