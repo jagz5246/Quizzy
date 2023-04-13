@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import QuizBanner from './components/QuizBanner';
 import HTMLQuiz from './components/HTMLQuiz';
 import CSSQuiz from './components/CSSQuiz'
@@ -7,7 +7,7 @@ import JSQuiz from './components/JSQuiz'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
       <Routes>
       <Route path="/" exact element={<QuizBanner/>}></Route>
@@ -17,7 +17,7 @@ function App() {
       <Route element={<h1>Error 404 : Page not found</h1>}></Route>
       </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
