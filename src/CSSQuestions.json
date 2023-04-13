@@ -1,0 +1,92 @@
+[
+    {
+    "questionText":"Which of the following is a component of CSS style rule?",
+    "answerOptions":[
+        {"answerText":"Property","isCorrect":false},
+        {"answerText":"Selector","isCorrect":false},
+        {"answerText":"Value","isCorrect":false},
+        {"answerText":"All of the above","isCorrect":true}
+        ]
+    },
+    {
+    "questionText":"Which of the following defines a measurement as a percentage relative to another value, typically an enclosing element?",
+    "answerOptions":[
+        {"answerText":"%","isCorrect":true},
+        {"answerText":"cm","isCorrect":false},
+        {"answerText":"em","isCorrect":false},
+        {"answerText":"ex","isCorrect":false}
+        ]
+    },
+    {
+        "questionText": " Which of the following defines 1% of viewport width?",
+        "answerOptions":[
+          {"answerText":"px", "isCorrect":false},
+          {"answerText":"vh", "isCorrect":false},
+          {"answerText":"vw", "isCorrect":true},
+          {"answerText":"vmin", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following property is used to control the scrolling of an image in the background?",
+        "answerOptions":[
+          {"answerText":"background-attachment", "isCorrect":true},
+          {"answerText":"background", "isCorrect":false},
+          {"answerText":"background-repeat", "isCorrect":false},
+          {"answerText":"background-position", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following property is used to add or subtract space between the words of a sentence? ",
+        "answerOptions":[
+          {"answerText":"color", "isCorrect":false},
+          {"answerText":"direction", "isCorrect":false},
+          {"answerText":"letter-spacing", "isCorrect":false},
+          {"answerText":"word-spacing", "isCorrect":true }
+          ]
+      }, 
+      {
+        "questionText": "Which of the following property of a anchor element signifies visited hyperlinks?",
+        "answerOptions":[
+          {"answerText":":link", "isCorrect":false},
+          {"answerText":":visited", "isCorrect":true},
+          {"answerText":":hover", "isCorrect":false},
+          {"answerText":":active", "isCorrect":false }
+          ]
+      },    
+      {
+        "questionText": "Which of the following property changes the color of bottom border?",
+        "answerOptions":[
+          {"answerText":":border-color", "isCorrect":false},
+          {"answerText":":border-style", "isCorrect":false},
+          {"answerText":":border-width", "isCorrect":false},
+          {"answerText":":border-bottom-color", "isCorrect":true }
+          ]
+      },    
+      {
+        "questionText": "Which of the following property changes the color of right border?",
+        "answerOptions":[
+          {"answerText":":border-top-color", "isCorrect":false},
+          {"answerText":":border-left-color", "isCorrect":false},
+          {"answerText":":border-right-color", "isCorrect":true},
+          {"answerText":":border-bottom-color", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following property allows you to control the shape or appearance of the marker of a list?",
+        "answerOptions":[
+          {"answerText":"list-style-type", "isCorrect":true},
+          {"answerText":"list-style-position", "isCorrect":false},
+          {"answerText":"list-style-image", "isCorrect":false},
+          {"answerText":"list-style", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following value of cursor shows it as a pointing hand?",
+        "answerOptions":[
+          {"answerText":"crosshair", "isCorrect":false},
+          {"answerText":"default", "isCorrect":false},
+          {"answerText":"pointer", "isCorrect":true},
+          {"answerText":"move", "isCorrect":false }
+          ]
+      }
+]

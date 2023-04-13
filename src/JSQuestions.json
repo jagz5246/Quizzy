@@ -1,0 +1,92 @@
+[
+    {
+    "questionText":"Which of the following is true about typeof operator in JavaScript?",
+    "answerOptions":[
+        {"answerText":"The typeof is a unary operator that is placed before its single operand, which can be of any type.","isCorrect":false},
+        {"answerText":"Its value is a string indicating the data type of the operand.","isCorrect":false},
+        {"answerText":"Both of the above.","isCorrect":true},
+        {"answerText":"None of the above.","isCorrect":false}
+        ]
+    },
+    {
+    "questionText":"Which of the following is the correct syntax to print a page using JavaScript?",
+    "answerOptions":[
+        {"answerText":"window.print();","isCorrect":true},
+        {"answerText":"browser.print();","isCorrect":false},
+        {"answerText":"navigator.print();","isCorrect":false},
+        {"answerText":"document.print();","isCorrect":false}
+        ]
+    },
+    {
+        "questionText": "Which built-in method combines the text of two strings and returns a new string?",
+        "answerOptions":[
+          {"answerText":"append()", "isCorrect":false},
+          {"answerText":"concat()", "isCorrect":true},
+          {"answerText":"attach()", "isCorrect":false},
+          {"answerText":"None of the above.", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "All user-defined objects and built-in objects are descendants of an object called Object?",
+        "answerOptions":[
+          {"answerText":"true", "isCorrect":true},
+          {"answerText":"false", "isCorrect":false},
+          {"answerText":"Maybe true", "isCorrect":false},
+          {"answerText":"Sometimes false", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following function of Number object returns a string value version of the current number?",
+        "answerOptions":[
+          {"answerText":"toString()", "isCorrect":true},
+          {"answerText":"toFixed()", "isCorrect":false},
+          {"answerText":"toLocaleString()", "isCorrect":false},
+          {"answerText":"toPrecision()", "isCorrect":false }
+          ]
+      }, 
+      {
+        "questionText": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+        "answerOptions":[
+          {"answerText":"concat()", "isCorrect":false},
+          {"answerText":"match()", "isCorrect":false},
+          {"answerText":"replace()", "isCorrect":false},
+          {"answerText":"search()", "isCorrect":true }
+          ]
+      },    
+      {
+        "questionText": "Which of the following function of String object returns the calling string value converted to upper case while respecting the current locale?",
+        "answerOptions":[
+          {"answerText":"toLocaleUpperCase()", "isCorrect":true},
+          {"answerText":"toUpperCase()", "isCorrect":false},
+          {"answerText":"toString()", "isCorrect":false},
+          {"answerText":"substring()", "isCorrect":false }
+          ]
+      },    
+      {
+        "questionText": "Which of the following function of String object causes a string to be displayed as a superscript, as if it were in a <sup> tag?",
+        "answerOptions":[
+          {"answerText":"sup()", "isCorrect":true},
+          {"answerText":"small()", "isCorrect":false},
+          {"answerText":"strike()", "isCorrect":false},
+          {"answerText":"sub()", "isCorrect":false }
+          ]
+      },
+      {
+        "questionText": "Which of the following function of Array object calls a function for each element in the array?",
+        "answerOptions":[
+          {"answerText":"concat()", "isCorrect":false},
+          {"answerText":"every()", "isCorrect":false},
+          {"answerText":"filter()", "isCorrect":false},
+          {"answerText":"forEach()", "isCorrect":true }
+          ]
+      },
+      {
+        "questionText": "Which of the following function of Array object reverses the order of the elements of an array?",
+        "answerOptions":[
+          {"answerText":"reverse()", "isCorrect":true},
+          {"answerText":"push()", "isCorrect":false},
+          {"answerText":"reduce()", "isCorrect":false},
+          {"answerText":"reduceRight()", "isCorrect":false }
+          ]
+      }
+]

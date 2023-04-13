@@ -1,0 +1,92 @@
+[
+        {
+        "questionText":"What does HTML stand for?",
+        "answerOptions":[
+            {"answerText":"Hypertext Machine language","isCorrect":false},
+            {"answerText":"Hypertext and links markup language","isCorrect":false},
+            {"answerText":"Hypertext Markup Language","isCorrect":true},
+            {"answerText":"Hightext machine language","isCorrect":false}
+            ]
+        },
+        {
+        "questionText":"How is document type initialized in HTML5.?",
+        "answerOptions":[
+            {"answerText":"</DOCTYPE HTML>","isCorrect":false},
+            {"answerText":"</DOCTYPE>","isCorrect":false},
+            {"answerText":"<!DOCTYPE HTML>","isCorrect":true},
+            {"answerText":"Hightext machine language","isCorrect":false}
+            ]
+        },
+        {
+            "questionText": " Which of the following HTML Elements is used for making any text bold ?",
+            "answerOptions":[
+              {"answerText":"<p>", "isCorrect":false},
+              {"answerText":"<i", "isCorrect":false},
+              {"answerText":"<li>", "isCorrect":false},
+              {"answerText":"<b>", "isCorrect":true }
+              ]
+          },
+          {
+            "questionText": "Which of the following HTML element is used for creating an unordered list?",
+            "answerOptions":[
+              {"answerText":"<ui>", "isCorrect":false},
+              {"answerText":"<i", "isCorrect":false},
+              {"answerText":"<em>", "isCorrect":false},
+              {"answerText":"<ul>", "isCorrect":true }
+              ]
+          },
+          {
+            "questionText": "Which of the following characters indicate closing of a tag? ",
+            "answerOptions":[
+              {"answerText":".", "isCorrect":false},
+              {"answerText":"/", "isCorrect":true},
+              {"answerText":"//", "isCorrect":false},
+              {"answerText":"!", "isCorrect":false }
+              ]
+          }, 
+          {
+            "questionText": "What is the font-size of the h1 heading tag?",
+            "answerOptions":[
+              {"answerText":"3.5 em", "isCorrect":false},
+              {"answerText":"4 em", "isCorrect":false},
+              {"answerText":"1.5 em", "isCorrect":false},
+              {"answerText":"2 em", "isCorrect":true }
+              ]
+          },    
+          {
+            "questionText": "How many heading tags are there in HTML5?",
+            "answerOptions":[
+              {"answerText":"3", "isCorrect":false},
+              {"answerText":"6", "isCorrect":true},
+              {"answerText":"5", "isCorrect":false},
+              {"answerText":"7", "isCorrect":false }
+              ]
+          },    
+          {
+            "questionText": "How many attributes are there in HTML5?",
+            "answerOptions":[
+              {"answerText":"3", "isCorrect":false},
+              {"answerText":"2", "isCorrect":false},
+              {"answerText":"1", "isCorrect":false},
+              {"answerText":"None of the above", "isCorrect":true }
+              ]
+          },
+          {
+            "questionText": "Which of the following attributes is used to add link to any element?",
+            "answerOptions":[
+              {"answerText":"link", "isCorrect":false},
+              {"answerText":"ref", "isCorrect":false},
+              {"answerText":"href", "isCorrect":true},
+              {"answerText":"newRef", "isCorrect":false }
+              ]
+          },
+          {
+            "questionText": "Which of the following is the correct way of creating an hyperlink in HTML?",
+            "answerOptions":[
+              {"answerText":"<a>www.geeksforgeeks.org <Geeksforgeeks /a>", "isCorrect":false},
+              {"answerText":"<a href=“www.geeksforgeeks.org” Geeksforgeeks /a>", "isCorrect":false},
+              {"answerText":"<a href= “www.geeksforgeeks.org”>Geeksforgeeks</a>", "isCorrect":true},
+              {"answerText":"<a link=“www.geeksforgeeks.org” Geeksforgeeks> </a>", "isCorrect":false }
+              ]
+          }
+]
