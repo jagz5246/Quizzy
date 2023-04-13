@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Quizzy/static/css/main.da9293e0.css",
+    "main.js": "/Quizzy/static/js/main.9b68d49b.js",
+    "static/media/celebrate.gif": "/Quizzy/static/media/celebrate.14842538e61c2a462bfb.gif",
+    "index.html": "/Quizzy/index.html",
+    "main.da9293e0.css.map": "/Quizzy/static/css/main.da9293e0.css.map",
+    "main.9b68d49b.js.map": "/Quizzy/static/js/main.9b68d49b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da9293e0.css",
+    "static/js/main.9b68d49b.js"
+  ]
+}
