@@ -3,12 +3,15 @@ import html from '../Images/html.png';
 import {Link} from 'react-router-dom';
 import css from '../Images/css.png';
 import js from '../Images/js.png';
-
+import title from '../Images/title.png'
 
 function QuizBanner() {
   return (
     <>
-    <h1>🤯Quizzy</h1>
+    <div className='title'>
+      <img src={title} alt='title logo'/>
+      <h2>Quizzy</h2>
+    </div>
     <div className='quiz-banner'>
       <div className='quiz-option'>
       <img src={html} alt='html.png'/>

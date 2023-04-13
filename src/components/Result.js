@@ -8,7 +8,7 @@ function Result({score, title, total, mistakes, handlePlayAgain}) {
   return (
   <>
     <div className='result-container'>
-      <div className='circular-progress'style={{background:`conic-gradient(rgb(20, 97, 184) ${score*10 * 3.6}deg, #ededed 0deg)`}}>
+      <div className='circular-progress'style={{background:`conic-gradient(#581f58 ${score*10 * 3.6}deg, #ededed 0deg)`}}>
         <h2 className='progress-value'><span>{score}</span> / {total}</h2>
       </div>
       <div className='mistakes'>
