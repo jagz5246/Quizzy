@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;700&family=Noto+Sans:ital,wght@1,100&family=Poppins:wght@400;500;600;700;900&display=swap');
 html{
   margin: 0;
-  padding: 0;
+  padding-bottom: 25px;
   font-family: 'Alkatra', cursive;
   font-family: 'Noto Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
@@ -189,7 +189,7 @@ html{
   padding: 0px 0px;
   text-align: left;
   font-size: 14px;
-  line-height: 2em;
+  line-height: 2.5em;
   color: white;
 }
 .mistakes h2{
@@ -274,8 +274,8 @@ html{
 }
 @media (max-width:768px){
 
-  h1{
-    text-align: center;
+  html{
+    padding-bottom: 50px;
   }
   .quiz-flex{
     width: 80%;
