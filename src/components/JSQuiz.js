@@ -1,11 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import { useState } from 'react';
 import Questions from '../JSQuestions.json';
-import refresh from '../Images/refresh.png';
 import Result from './Result';
 import js from '../Images/js.png';
-import home from '../Images/home.png';
 
 function JSQuiz() {
     const total = Questions.length;
@@ -35,14 +32,11 @@ function JSQuiz() {
        }  
 
      return(
-      <div className="quiz">
+      <div>
         {showScore?
         (<>
-          <Result score={score} title={js} total={total} mistakes={mistakes}/>
-          <div className='resultBtns'>
-            <button className='play-again' onClick={handlePlayAgain}><img src={refresh} alt='refresh logo'/></button>
-            <Link className='homeBtn' to="/"><img src={home} alt='home logo'/></Link>
-          </div>
+          <Result score={score} title={js} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
+         
         </>
         ): ( 
         <div className='quiz-flex'>

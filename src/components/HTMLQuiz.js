@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom';
 import Questions from '../HTMLQuestions.json';
-import refresh from '../Images/refresh.png';
-import home from '../Images/home.png';
 import Result from './Result';
 import html from '../Images/html.png';
 function HTMLQuiz() {
@@ -33,14 +30,11 @@ function HTMLQuiz() {
        }
 
      return(
-      <div className="quiz">
+      <div className='quiz'>
         {showScore?
         (<>
-          <Result score={score} title={html} total={total} mistakes={mistakes}/>
-          <div className='resultBtns'>
-            <button className='play-again' onClick={handlePlayAgain}><img src={refresh} alt='refresh logo'/></button>
-            <Link className='homeBtn' to="/"><img src={home} alt='home logo'/></Link>
-          </div>
+          <Result score={score} title={html} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
+          
         </>
         ): ( 
         <div className='quiz-flex'>

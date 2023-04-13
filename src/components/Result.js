@@ -1,8 +1,12 @@
-import React from 'react'
-import celebrate from '../Images/celebrate.gif'
-function Result({score, title, total, mistakes}) {
+import React from 'react';
+import {Link} from 'react-router-dom';
+import refresh from '../Images/refresh.png';
+import home from '../Images/home.png';
+import celebrate from '../Images/celebrate.gif';
+function Result({score, title, total, mistakes, handlePlayAgain}) {
   console.log(mistakes)
   return (
+  <>
     <div className='result-container'>
       <div className='circular-progress'style={{background:`conic-gradient(rgb(20, 97, 184) ${score*10 * 3.6}deg, #ededed 0deg)`}}>
         <h2 className='progress-value'><span>{score}</span> / {total}</h2>
@@ -23,6 +27,11 @@ function Result({score, title, total, mistakes}) {
       )}
       </div>
     </div>
+  <div className='resultBtns'>
+    <button className='play-again' onClick={handlePlayAgain}><img src={refresh} alt='refresh logo'/></button>
+    <Link className='homeBtn' to="/"><img src={home} alt='home logo'/></Link>
+  </div>
+  </>
   )
 }
 

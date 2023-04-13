@@ -1,11 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import {Link} from 'react-router-dom';
 import Questions from '../CSSQuestions.json';
 import Result from './Result';
 import css from '../Images/css.png';
-import refresh from '../Images/refresh.png';
-import home from '../Images/home.png';
+
 
 function CSSQuiz() {
     const total = Questions.length;
@@ -35,14 +33,10 @@ function CSSQuiz() {
        }  
 
      return(
-      <div className="quiz">
+      <div>
         {showScore?
         (<>
-          <Result score={score} title={css} total={total} mistakes={mistakes}/>
-          <div className='resultBtns'>
-            <button className='play-again' onClick={handlePlayAgain}><img src={refresh} alt='refresh logo'/></button>
-            <Link className='homeBtn' to="/"><img src={home} alt='home logo'/></Link>
-          </div>
+          <Result score={score} title={css} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
         </>
         ): ( 
         <div className='quiz-flex'>
