@@ -141,11 +141,11 @@ html{
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border-radius: 10px;
-  column-gap: 100px;
+  column-gap: 50px;
   width: 70%;
   margin: 100px auto 20px;
   min-height: 500px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -186,11 +186,15 @@ html{
 
 .mistakes{
   width: 50%;
-  padding: 0px 0px;
+  padding: 0px 20px 10px;
   text-align: left;
   font-size: 14px;
   line-height: 2.5em;
+  background: black;
+  border-radius: 20px;
   color: white;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.404),
+  -6px -6px 10px -1px rgba(58, 58, 58, 0.856);
 }
 .mistakes h2{
   font-size: 2em;
@@ -264,7 +268,6 @@ html{
     width: 80%;
     padding: 10px 40px 20px;
     justify-content: space-around;
-    column-gap: 10px;
 }
   .answers button{
     font-size: calc(1rem + ((.5vw - 7.68px) * 0.6944));
@@ -335,6 +338,7 @@ html{
   .result-container{
     flex-direction: column;
     padding: 20px 10px;
+    row-gap: 20px;
   }
   .resultBtns{
     margin-top: 10px;
