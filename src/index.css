@@ -296,12 +296,23 @@
   }
   .quiz-flex{
     margin: auto;
+    padding-bottom: 10px;
+  }
+  .answers{
+    width: 80%;
   }
   .answers button{
     font-size: calc(1rem + ((.5vw - 9.68px) * 0.6944));
-    padding: 0px 10px 5px 10px;
+    padding: 0px 10px;
     overflow-wrap: break-word;
+    /* pointer-events: none; */
   }
+  .answers button:hover{
+    transform: none;
+    background-color: white;
+    color: black;
+  }
+  
   .take-test{
     background: linear-gradient(128deg, rgba(1,0,64,1) 0%, #0f386f 38%, rgba(20,182,184,1) 100%);;
     font-size: 14px;
@@ -315,6 +326,7 @@
   .questions h2{
     font-size: 1.0em;
   }
+  
   .result-container{
     display: flex;
     width: 100%;
