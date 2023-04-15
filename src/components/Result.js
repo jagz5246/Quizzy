@@ -9,7 +9,7 @@ function Result({score, title, total, mistakes, handlePlayAgain}) {
   console.log(mistakes)
   return (
   <>
-    <motion.div className='result-container' initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
+    <motion.div className='result-container' initial={{opacity:0}} animate={{opacity:1, transition:{duration:0.3}}} exit={{opacity:0}}>
       <div className='circular-progress'style={{background:`conic-gradient(#581f58 ${score*10 * 3.6}deg, #ededed 0deg)`}}>
         <h2 className='progress-value'><span>{score}</span> / {total}</h2>
       </div>
