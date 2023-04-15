@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 function QuizBanner() {
   return (
-    <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
+    <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{opacity:0}}>
     <div className='title'>
       <img src={title} alt='title logo'/>
       <h2>Quizzy</h2>

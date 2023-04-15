@@ -31,7 +31,7 @@ function HTMLQuiz() {
        }
 
      return(
-      <motion.div className='quiz' initial={{width:0}} animate={{width:"100%", transition:{duration:.3}}} exit={{x:window.innerWidth}}>
+      <motion.div className='quiz' initial={{width:0}} animate={{width:"100%", transition:{duration:.3}}} exit={{opacity:0}}>
         {showScore?
         (<>
           <Result score={score} title={html} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>

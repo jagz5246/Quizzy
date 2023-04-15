@@ -33,7 +33,7 @@ function CSSQuiz() {
        }  
 
      return(
-      <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
+      <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{opacity:0}}>
         {showScore?
         (<>
           <Result score={score} title={css} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
