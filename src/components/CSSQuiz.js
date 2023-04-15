@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Questions from '../CSSQuestions.json';
 import Result from './Result';
 import css from '../Images/css.png';
-
+import { motion } from 'framer-motion';
 
 function CSSQuiz() {
     const total = Questions.length;
@@ -33,7 +33,7 @@ function CSSQuiz() {
        }  
 
      return(
-      <div>
+      <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
         {showScore?
         (<>
           <Result score={score} title={css} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
@@ -54,7 +54,7 @@ function CSSQuiz() {
           </div>
           )
         }
-      </div>
+      </motion.div>
         )
 }
 

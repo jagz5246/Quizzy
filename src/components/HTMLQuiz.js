@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Questions from '../HTMLQuestions.json';
 import Result from './Result';
 import html from '../Images/html.png';
+import { motion } from 'framer-motion';
 function HTMLQuiz() {
        const total = Questions.length;
        const [currentQuestion, setCurrentQuestion] = useState(0)
@@ -30,7 +31,7 @@ function HTMLQuiz() {
        }
 
      return(
-      <div className='quiz'>
+      <motion.div className='quiz' initial={{width:0}} animate={{width:"100%", transition:{duration:.3}}} exit={{x:window.innerWidth}}>
         {showScore?
         (<>
           <Result score={score} title={html} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
@@ -52,7 +53,7 @@ function HTMLQuiz() {
           </div>
           )
         }
-      </div>
+      </motion.div>
         )
 }
 export default HTMLQuiz

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Questions from '../JSQuestions.json';
 import Result from './Result';
 import js from '../Images/js.png';
+import { motion } from 'framer-motion';
 
 function JSQuiz() {
     const total = Questions.length;
@@ -32,7 +33,7 @@ function JSQuiz() {
        }  
 
      return(
-      <div>
+      <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
         {showScore?
         (<>
           <Result score={score} title={js} total={total} mistakes={mistakes} handlePlayAgain={handlePlayAgain}/>
@@ -54,7 +55,7 @@ function JSQuiz() {
           </div>
           )
         }
-      </div>
+      </motion.div>
         )
 }
 

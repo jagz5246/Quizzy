@@ -4,10 +4,11 @@ import {Link} from 'react-router-dom';
 import css from '../Images/css.png';
 import js from '../Images/js.png';
 import title from '../Images/title.png'
+import { motion } from 'framer-motion';
 
 function QuizBanner() {
   return (
-    <>
+    <motion.div initial={{width:0}} animate={{width:"100%"}} exit={{x:window.innerWidth}}>
     <div className='title'>
       <img src={title} alt='title logo'/>
       <h2>Quizzy</h2>
@@ -32,7 +33,7 @@ function QuizBanner() {
       <Link className='take-test' to='/js'>Take test</Link>
       </div>
     </div>
-    </>
+    </motion.div>
   )
 }
 
