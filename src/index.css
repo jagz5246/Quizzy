@@ -319,6 +319,7 @@ html{
     transition: none;
     color: black;
     background-color: white;
+    transform: none;
   }
   
   .take-test{
